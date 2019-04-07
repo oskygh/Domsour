@@ -1,5 +1,13 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-  const colors = ["red", "orange", "yellow", "green", "blue", "violet"];
+  const colors = [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "violet",
+    "white"
+  ];
 
   const colorPicker = () => {
     const randomIndex = Math.floor(Math.random() * colors.length);
