@@ -1,0 +1,15 @@
+{
+  "name": "Domsour",
+  "description": "Lights goes on and off",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Unleash the unicorn dust",
+    "default_icon": "latern.png"
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
